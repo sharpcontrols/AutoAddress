@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>SharpControls.AutoAddress</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>SharpControls.AutoAddress</PackageId>
+    <Title>SharpControls.AutoAddress</Title>
+    <Version>1.0.0</Version>
+    <Authors>daRedLoCo</Authors>
+    <Company>Helvetitec Technologies Ltda</Company>
+    <Product>SharpControls.AutoAddress</Product>
+    <Description>This library automatically adds the street, city, state etc. to an areacode based on informations from CEPAberto and other libraries. This is the successor of AutoCEP and should be used instead.</Description>
+    <Copyright>© Helvetitec Technologies Ltda</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SharpControls.APIHandler" Version="1.0.2" />
+    <PackageReference Include="SharpControls.Utils" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
