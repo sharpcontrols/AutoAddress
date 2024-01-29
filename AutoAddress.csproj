@@ -13,10 +13,11 @@
     <Company>Helvetitec Technologies Ltda</Company>
     <Product>SharpControls.AutoAddress</Product>
     <Description>This library automatically adds the street, city, state etc. to an areacode based on informations from CEPAberto and other libraries. This is the successor of AutoCEP and should be used instead.</Description>
-    <Copyright>© Helvetitec Technologies Ltda</Copyright>
+    <Copyright>© Helvetitec Technologies Ltda 2024</Copyright>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/sharpcontrols/AutoAddress</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
